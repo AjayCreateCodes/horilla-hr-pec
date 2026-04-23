@@ -21,6 +21,6 @@ COPY . .
 
 RUN chmod +x /app/entrypoint.sh
 
-EXPOSE 8000
+EXPOSE 8010
 
 CMD ["python3", "manage.py", "runserver"]
